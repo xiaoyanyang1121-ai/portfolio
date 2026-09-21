@@ -1,1 +1,89 @@
-Krystal Yang · Visual & UI Design Portfolio
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krystal Yang · Visual & UI Designer</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+    }
+
+    .portfolio {
+      width: 100%;
+      max-width: 1920px;
+      margin: 0 auto;
+      line-height: 0;
+      overflow: hidden;
+    }
+
+    .portfolio img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<main class="portfolio">
+
+  <!-- 首屏优先加载 -->
+  <img src="01.jpg" alt="Portfolio 01" fetchpriority="high">
+  <img src="02.jpg" alt="Portfolio 02">
+  <img src="03.jpg" alt="Portfolio 03">
+
+  <!-- 后续滚动时加载 -->
+  <img src="04.jpg" alt="Portfolio 04" loading="lazy">
+  <img src="05.jpg" alt="Portfolio 05" loading="lazy">
+  <img src="06.jpg" alt="Portfolio 06" loading="lazy">
+  <img src="07.jpg" alt="Portfolio 07" loading="lazy">
+  <img src="08.jpg" alt="Portfolio 08" loading="lazy">
+  <img src="09.jpg" alt="Portfolio 09" loading="lazy">
+  <img src="10.jpg" alt="Portfolio 10" loading="lazy">
+
+  <img src="11.jpg" alt="Portfolio 11" loading="lazy">
+  <img src="12.jpg" alt="Portfolio 12" loading="lazy">
+  <img src="13.jpg" alt="Portfolio 13" loading="lazy">
+  <img src="14.jpg" alt="Portfolio 14" loading="lazy">
+  <img src="15.jpg" alt="Portfolio 15" loading="lazy">
+  <img src="16.jpg" alt="Portfolio 16" loading="lazy">
+  <img src="17.jpg" alt="Portfolio 17" loading="lazy">
+  <img src="18.jpg" alt="Portfolio 18" loading="lazy">
+  <img src="19.jpg" alt="Portfolio 19" loading="lazy">
+  <img src="20.jpg" alt="Portfolio 20" loading="lazy">
+
+  <img src="21.jpg" alt="Portfolio 21" loading="lazy">
+  <img src="22.jpg" alt="Portfolio 22" loading="lazy">
+  <img src="23.jpg" alt="Portfolio 23" loading="lazy">
+  <img src="24.jpg" alt="Portfolio 24" loading="lazy">
+  <img src="25.jpg" alt="Portfolio 25" loading="lazy">
+  <img src="26.jpg" alt="Portfolio 26" loading="lazy">
+  <img src="27.jpg" alt="Portfolio 27" loading="lazy">
+  <img src="28.jpg" alt="Portfolio 28" loading="lazy">
+  <img src="29.jpg" alt="Portfolio 29" loading="lazy">
+  <img src="30.jpg" alt="Portfolio 30" loading="lazy">
+
+  <img src="31.jpg" alt="Portfolio 31" loading="lazy">
+  <img src="32.jpg" alt="Portfolio 32" loading="lazy">
+  <img src="33.jpg" alt="Portfolio 33" loading="lazy">
+  <img src="34.jpg" alt="Portfolio 34" loading="lazy">
+  <img src="35.jpg" alt="Portfolio 35" loading="lazy">
+  <img src="36.jpg" alt="Portfolio 36" loading="lazy">
+  <img src="37.jpg" alt="Portfolio 37" loading="lazy">
+  <img src="38.jpg" alt="Portfolio 38" loading="lazy">
+
+</main>
+
+</body>
+</html>
